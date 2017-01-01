@@ -1,0 +1,36 @@
+body{
+    background-color: beige;
+}
+
+header {
+    float: left;
+    margin: 20px 0 0 150px;
+}
+button {
+    padding: 5px 15px;
+    font-size: 18px;
+    margin: 7px;
+    background-color: bisque;
+    border: 1px solid dimgray;
+}
+#sketch {
+    height: 600px;
+    width: 600px;
+    border: 2px solid dimgray;
+    float: right;
+    margin: 20px 100px 0 0;
+}
+
+
+
+#sketch > div {
+    float:left;
+    background-color: transparent;
+}
+#sketch>div.black{
+    background-color: black;
+}
+#sketch>div.black1{
+    background-color: black !important;
+    opacity: 0;
+}
